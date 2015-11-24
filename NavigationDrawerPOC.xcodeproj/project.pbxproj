@@ -14,6 +14,15 @@
 		F53C315E1C02F46300345F51 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F53C315D1C02F46300345F51 /* Images.xcassets */; };
 		F53C31611C02F46300345F51 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F53C315F1C02F46300345F51 /* LaunchScreen.xib */; };
 		F53C316D1C02F46300345F51 /* NavigationDrawerPOCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53C316C1C02F46300345F51 /* NavigationDrawerPOCTests.swift */; };
+		F53C31771C043F6700345F51 /* Navigation.png in Resources */ = {isa = PBXBuildFile; fileRef = F53C31761C043F6700345F51 /* Navigation.png */; };
+		F53C317B1C04424100345F51 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F53C317A1C04424100345F51 /* SWRevealViewController.m */; };
+		F53C317D1C04455000345F51 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53C317C1C04455000345F51 /* MainViewController.swift */; };
+		F53C317F1C04456700345F51 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53C317E1C04456700345F51 /* MapViewController.swift */; };
+		F53C31811C04457300345F51 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53C31801C04457300345F51 /* PhotoViewController.swift */; };
+		F53C31851C0445EF00345F51 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53C31841C0445EF00345F51 /* MenuTableViewController.swift */; };
+		F53C31871C04567E00345F51 /* map-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F53C31861C04567E00345F51 /* map-icon.png */; };
+		F53C31891C0456C300345F51 /* calendar-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F53C31881C0456C300345F51 /* calendar-icon.png */; };
+		F53C318B1C04652100345F51 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53C318A1C04652100345F51 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +47,17 @@
 		F53C31661C02F46300345F51 /* NavigationDrawerPOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationDrawerPOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F53C316B1C02F46300345F51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F53C316C1C02F46300345F51 /* NavigationDrawerPOCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDrawerPOCTests.swift; sourceTree = "<group>"; };
+		F53C31761C043F6700345F51 /* Navigation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Navigation.png; sourceTree = "<group>"; };
+		F53C31781C04424100345F51 /* NavigationDrawerPOC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NavigationDrawerPOC-Bridging-Header.h"; sourceTree = "<group>"; };
+		F53C31791C04424100345F51 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		F53C317A1C04424100345F51 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		F53C317C1C04455000345F51 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F53C317E1C04456700345F51 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		F53C31801C04457300345F51 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		F53C31841C0445EF00345F51 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		F53C31861C04567E00345F51 /* map-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map-icon.png"; sourceTree = "<group>"; };
+		F53C31881C0456C300345F51 /* calendar-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar-icon.png"; sourceTree = "<group>"; };
+		F53C318A1C04652100345F51 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F53C318B1C04652100345F51 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 		F53C31451C02F46300345F51 = {
 			isa = PBXGroup;
 			children = (
+				F53C318A1C04652100345F51 /* MapKit.framework */,
 				F53C31501C02F46300345F51 /* NavigationDrawerPOC */,
 				F53C31691C02F46300345F51 /* NavigationDrawerPOCTests */,
 				F53C314F1C02F46300345F51 /* Products */,
@@ -81,11 +103,21 @@
 			children = (
 				F53C31531C02F46300345F51 /* AppDelegate.swift */,
 				F53C31581C02F46300345F51 /* ViewController.swift */,
+				F53C31791C04424100345F51 /* SWRevealViewController.h */,
+				F53C317A1C04424100345F51 /* SWRevealViewController.m */,
+				F53C317C1C04455000345F51 /* MainViewController.swift */,
 				F53C315A1C02F46300345F51 /* Main.storyboard */,
 				F53C315D1C02F46300345F51 /* Images.xcassets */,
+				F53C31881C0456C300345F51 /* calendar-icon.png */,
+				F53C31861C04567E00345F51 /* map-icon.png */,
+				F53C31761C043F6700345F51 /* Navigation.png */,
 				F53C315F1C02F46300345F51 /* LaunchScreen.xib */,
 				F53C31551C02F46300345F51 /* NavigationDrawerPOC.xcdatamodeld */,
 				F53C31511C02F46300345F51 /* Supporting Files */,
+				F53C31781C04424100345F51 /* NavigationDrawerPOC-Bridging-Header.h */,
+				F53C317E1C04456700345F51 /* MapViewController.swift */,
+				F53C31801C04457300345F51 /* PhotoViewController.swift */,
+				F53C31841C0445EF00345F51 /* MenuTableViewController.swift */,
 			);
 			path = NavigationDrawerPOC;
 			sourceTree = "<group>";
@@ -196,7 +228,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F53C315C1C02F46300345F51 /* Main.storyboard in Resources */,
+				F53C31871C04567E00345F51 /* map-icon.png in Resources */,
+				F53C31771C043F6700345F51 /* Navigation.png in Resources */,
 				F53C31611C02F46300345F51 /* LaunchScreen.xib in Resources */,
+				F53C31891C0456C300345F51 /* calendar-icon.png in Resources */,
 				F53C315E1C02F46300345F51 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,8 +251,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F53C31591C02F46300345F51 /* ViewController.swift in Sources */,
+				F53C317F1C04456700345F51 /* MapViewController.swift in Sources */,
 				F53C31571C02F46300345F51 /* NavigationDrawerPOC.xcdatamodeld in Sources */,
 				F53C31541C02F46300345F51 /* AppDelegate.swift in Sources */,
+				F53C31851C0445EF00345F51 /* MenuTableViewController.swift in Sources */,
+				F53C31811C04457300345F51 /* PhotoViewController.swift in Sources */,
+				F53C317B1C04424100345F51 /* SWRevealViewController.m in Sources */,
+				F53C317D1C04455000345F51 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,9 +386,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = NavigationDrawerPOC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NavigationDrawerPOC/NavigationDrawerPOC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -356,9 +399,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = NavigationDrawerPOC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NavigationDrawerPOC/NavigationDrawerPOC-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -415,6 +460,7 @@
 				F53C31721C02F46300345F51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F53C31731C02F46300345F51 /* Build configuration list for PBXNativeTarget "NavigationDrawerPOCTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +469,7 @@
 				F53C31751C02F46300345F51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
